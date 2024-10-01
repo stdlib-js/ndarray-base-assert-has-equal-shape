@@ -39,7 +39,8 @@
   "dependencies": {
     "@stdlib/array-base-assert-has-equal-values-indexed": "github:stdlib-js/array-base-assert-has-equal-values-indexed#main",
     "@stdlib/ndarray-base-shape": "^0.2.2",
-    "@stdlib/types": "^0.4.1"
+    "@stdlib/types": "^0.4.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
