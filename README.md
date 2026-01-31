@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hasEqualShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-has-equal-shape@esm/index.mjs';
+import hasEqualShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-has-equal-shape@v0.1.0-esm/index.mjs';
 ```
 
 #### hasEqualShape( x, y )
@@ -96,7 +96,7 @@ var bool = hasEqualShape( x, y );
 <script type="module">
 
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
-import hasEqualShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-has-equal-shape@esm/index.mjs';
+import hasEqualShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-has-equal-shape@v0.1.0-esm/index.mjs';
 
 var x1 = array( [ [ 1, 2 ], [ 3, 4 ] ] );
 var y1 = array( [ [ 5, 6 ], [ 7, 8 ] ] );
