@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import hasEqualShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-has-equal-shape@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-has-equal-shape/tags). For example,
+
+```javascript
 import hasEqualShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-has-equal-shape@v0.1.0-deno/mod.js';
 ```
 
@@ -91,7 +96,7 @@ var bool = hasEqualShape( x, y );
 
 ```javascript
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
-import hasEqualShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-has-equal-shape@v0.1.0-deno/mod.js';
+import hasEqualShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-has-equal-shape@deno/mod.js';
 
 var x1 = array( [ [ 1, 2 ], [ 3, 4 ] ] );
 var y1 = array( [ [ 5, 6 ], [ 7, 8 ] ] );
