@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import hasEqualShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-has-equal-shape@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-has-equal-shape/tags). For example,
+
+```javascript
 import hasEqualShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-has-equal-shape@v0.1.1-esm/index.mjs';
 ```
 
@@ -96,7 +101,7 @@ var bool = hasEqualShape( x, y );
 <script type="module">
 
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
-import hasEqualShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-has-equal-shape@v0.1.1-esm/index.mjs';
+import hasEqualShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-has-equal-shape@esm/index.mjs';
 
 var x1 = array( [ [ 1, 2 ], [ 3, 4 ] ] );
 var y1 = array( [ [ 5, 6 ], [ 7, 8 ] ] );
