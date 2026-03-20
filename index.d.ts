@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,37 +16,31 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var shape = require( '@stdlib/ndarray-base-shape' );
-var hasEqualValuesIndexed = require( '@stdlib/array-base-assert-has-equal-values-indexed' );
-
-
-// MAIN //
+import { ndarray } from '@stdlib/types/ndarray';
 
 /**
 * Tests whether two ndarrays have the same shape.
 *
-* @param {ndarray} x - first input ndarray
-* @param {ndarray} y - second input ndarray
-* @returns {boolean} boolean indicating whether two ndarrays have the same shape
+* @param x - first input ndarray
+* @param y - second input ndarray
+* @returns boolean indicating whether two ndarrays have the same shape
 *
 * @example
 * var array = require( '@stdlib/ndarray-array' );
 *
-* var x = array( [ 1, 2, 3, 4 ] );
-* var y = array( [ 5, 6, 7, 8 ] );
+* var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
+* var y = array( [ [ 5, 6 ], [ 7, 8 ] ] );
 *
 * var bool = hasEqualShape( x, y );
 * // returns true
 */
-function hasEqualShape( x, y ) {
-	return hasEqualValuesIndexed( shape( x, false ), shape( y, false ) );
-}
+declare function hasEqualShape( x: ndarray, y: ndarray ): boolean;
 
 
 // EXPORTS //
 
-module.exports = hasEqualShape;
+export = hasEqualShape;
