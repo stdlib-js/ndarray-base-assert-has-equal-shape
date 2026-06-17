@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/array-base-assert-has-equal-values-indexed": "^0.1.1",
     "@stdlib/ndarray-base-shape": "^0.2.3",
-    "@stdlib/types": "^0.4.3"
+    "@stdlib/types": "^0.5.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.3",
